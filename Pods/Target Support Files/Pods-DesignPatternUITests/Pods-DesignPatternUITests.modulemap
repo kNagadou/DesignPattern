@@ -1,0 +1,6 @@
+framework module Pods_DesignPatternUITests {
+  umbrella header "Pods-DesignPatternUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
