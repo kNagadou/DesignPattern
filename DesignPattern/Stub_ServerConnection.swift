@@ -15,7 +15,7 @@ class Stub_ServerConnection: NSObject {
             if (Bool.randomBool()) {
                 success("Success!")
             } else {
-                let error: NSError = NSError(domain: "ServerConnection.get", code: 1, userInfo: nil)
+                let error: NSError = NSError(domain: "ダミードメイン", code: 9999, userInfo: nil)
                 failure(error)
             }
         })

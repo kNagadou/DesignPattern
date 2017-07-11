@@ -37,6 +37,16 @@ class ViewController: UIViewController, DelegatePatternDelegate {
         super.didReceiveMemoryWarning()
     }
 
+    // MARK: - Singleton Pattern
+    @IBAction func singletonPatternTUI(_ sender: UIButton) {
+        inProgress()
+        SingletonPattern.instance.doing(success: { [weak self] (response) in
+            self?.progressSuccess(response: response!)
+        }) { [weak self] (error) in
+            self?.progressFailure(error: error!)
+        }
+    }
+    
     // MARK: - Delegate Pattern
     @IBAction func delegatePatternTouchUpInside(_ sender: UIButton) {
         inProgress()

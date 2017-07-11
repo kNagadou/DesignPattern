@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		198C5ECE1F146F85000598BC /* SingletonPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198C5ECD1F146F85000598BC /* SingletonPattern.swift */; };
 		198FE9CA1F08FB6900AD546A /* MyExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198FE9C91F08FB6900AD546A /* MyExtention.swift */; };
 		198FE9CC1F08FD9400AD546A /* Stub_ServerConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198FE9CB1F08FD9400AD546A /* Stub_ServerConnection.swift */; };
 		19EB8B111F08B25500D02794 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EB8B101F08B25500D02794 /* AppDelegate.swift */; };
@@ -43,6 +44,7 @@
 
 /* Begin PBXFileReference section */
 		059267B36194795506D002E9 /* Pods-DesignPatternTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignPatternTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DesignPatternTests/Pods-DesignPatternTests.release.xcconfig"; sourceTree = "<group>"; };
+		198C5ECD1F146F85000598BC /* SingletonPattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingletonPattern.swift; sourceTree = "<group>"; };
 		198FE9C91F08FB6900AD546A /* MyExtention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyExtention.swift; sourceTree = "<group>"; };
 		198FE9CB1F08FD9400AD546A /* Stub_ServerConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stub_ServerConnection.swift; sourceTree = "<group>"; };
 		19EB8B0D1F08B25500D02794 /* DesignPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -131,6 +133,7 @@
 				198FE9CB1F08FD9400AD546A /* Stub_ServerConnection.swift */,
 				198FE9C91F08FB6900AD546A /* MyExtention.swift */,
 				19EB8B401F08D83D00D02794 /* ClosurePattern.swift */,
+				198C5ECD1F146F85000598BC /* SingletonPattern.swift */,
 				19EB8B141F08B25500D02794 /* Main.storyboard */,
 				19EB8B171F08B25500D02794 /* Assets.xcassets */,
 				19EB8B191F08B25500D02794 /* LaunchScreen.storyboard */,
@@ -466,6 +469,7 @@
 			files = (
 				198FE9CA1F08FB6900AD546A /* MyExtention.swift in Sources */,
 				19EB8B131F08B25500D02794 /* ViewController.swift in Sources */,
+				198C5ECE1F146F85000598BC /* SingletonPattern.swift in Sources */,
 				19EB8B111F08B25500D02794 /* AppDelegate.swift in Sources */,
 				19EB8B411F08D83D00D02794 /* ClosurePattern.swift in Sources */,
 				198FE9CC1F08FD9400AD546A /* Stub_ServerConnection.swift in Sources */,
